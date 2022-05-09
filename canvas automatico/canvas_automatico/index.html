@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <h2>Crea tu propio canvas de manera automática</h2>
+<p> 
+    Introduce el color de la línea
+    <input type = "color" id = "btn_color">
+    <br>
+    <br>
+    Introduce el punto en X inicial (min 0, máx 300)
+    <input type = "range" list = listXI min = 0 max = 300 id = "btn_XI">
+    <br>
+    <br>
+    <datalist id="listXI">
+        <option value="0">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50"><
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="110">
+        <option value="120">
+        <option value="130">
+        <option value="140">
+        <option value="150">
+        <option value="160">
+        <option value="170">
+        <option value="180">
+        <option value="190">
+        <option value="200">
+        <option value="210">
+        <option value="220">
+        <option value="230">
+        <option value="240">
+        <option value="250">
+        <option value="260">
+        <option value="270">
+        <option value="280">
+        <option value="290">
+        <option value="300">
+        </datalist>   
+    
+    
+    Introduce el punto en X final (min 0, máx 300)
+    <input type = "range" list = listXF min = 0 max = 300 id = "btn_XF">
+    <br>
+    <br>
+    <datalist id="listXF">
+        <option value="0">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50"><
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="110">
+        <option value="120">
+        <option value="130">
+        <option value="140">
+        <option value="150">
+        <option value="160">
+        <option value="170">
+        <option value="180">
+        <option value="190">
+        <option value="200">
+        <option value="210">
+        <option value="220">
+        <option value="230">
+        <option value="240">
+        <option value="250">
+        <option value="260">
+        <option value="270">
+        <option value="280">
+        <option value="290">
+        <option value="300">
+        </datalist>   
+    
+    Introduce el punto en Y inicial (min 0, máx 300)
+    <input type = "range" list = listYI min = 0 max = 300 id = "btn_YI">
+    <br>
+    <br>
+    <datalist id="listYI">
+        <option value="0">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50"><
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="110">
+        <option value="120">
+        <option value="130">
+        <option value="140">
+        <option value="150">
+        <option value="160">
+        <option value="170">
+        <option value="180">
+        <option value="190">
+        <option value="200">
+        <option value="210">
+        <option value="220">
+        <option value="230">
+        <option value="240">
+        <option value="250">
+        <option value="260">
+        <option value="270">
+        <option value="280">
+        <option value="290">
+        <option value="300">
+        </datalist>   
+  
+    Introduce el punto en Y final (min 0, máx 300)
+    <input type = "range" list = listYF min = 0 max = 300 id = "btn_YF">
+    <br>
+    <br>
+    <datalist id="listYF">
+        <option value="0">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50"><
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+        <option value="110">
+        <option value="120">
+        <option value="130">
+        <option value="140">
+        <option value="150">
+        <option value="160">
+        <option value="170">
+        <option value="180">
+        <option value="190">
+        <option value="200">
+        <option value="210">
+        <option value="220">
+        <option value="230">
+        <option value="240">
+        <option value="250">
+        <option value="260">
+        <option value="270">
+        <option value="280">
+        <option value="290">
+        <option value="300">
+        </datalist>   
+   
+    <p>
+    <input type = "button" value = "Dibujar" id = "dibujazo">
+    <br>
+    <br>
+    <input type = "button" value = "Eliminar todo" id = "borrar">
+
+    </p>
+    El punto <strong> 0,0 </strong> se encuentra en la parte superior izquierda del canvas.
+    <br>
+    <br>
+    
+
+</p>
+
+
+
+<canvas width="300" height="300" id = "canvas"></canvas> 
+<canvas width = "300" height="300" id = "canvas_bordes"></canvas>
+
+<script src = "canvasauto.js"></script>
+</body>
+</html>
